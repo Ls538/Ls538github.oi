@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cornflowerblue;
+  height: 90vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: aliceblue;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(134, 174, 250);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(44, 114, 245);
+}
+
+button {
+  width: 60px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(56, 123, 248);
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#tarefas {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 385px;
+  margin: 10px;
+}
+
+span {
+  margin: 15px;
+}
